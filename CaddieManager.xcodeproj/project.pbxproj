@@ -1,0 +1,190 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 55;
+objects = {
+
+/* Begin PBXBuildFile section */
+ABE4C920295BAF4200A0E80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE4C90C295BAF4200A0E80A /* Assets.xcassets */; };
+ABE4C921295BAF4200A0E80A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABE4C90D295BAF4200A0E80A /* Info.plist */; };
+ABE4C928295BAF4200A0E80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE4C914295BAF4200A0E80A /* LaunchScreen.storyboard */; };
+ABE4C922295BAF4200A0E80A /* CaddieManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C90E295BAF4200A0E80A /* CaddieManagerApp.swift */; };
+ABE4C923295BAF4200A0E80A /* GroupDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C90F295BAF4200A0E80A /* GroupDataStore.swift */; };
+ABE4C924295BAF4200A0E80A /* Caddie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C910295BAF4200A0E80A /* Caddie.swift */; };
+ABE4C925295BAF4200A0E80A /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C911295BAF4200A0E80A /* Group.swift */; };
+ABE4C926295BAF4200A0E80A /* PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C912295BAF4200A0E80A /* PDFExporter.swift */; };
+ABE4C927295BAF4200A0E80A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE4C913295BAF4200A0E80A /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+ABE4C90C295BAF4200A0E80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+ABE4C90D295BAF4200A0E80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ABE4C914295BAF4200A0E80A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+ABE4C90E295BAF4200A0E80A /* CaddieManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaddieManagerApp.swift; sourceTree = "<group>"; };
+ABE4C90F295BAF4200A0E80A /* GroupDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDataStore.swift; sourceTree = "<group>"; };
+ABE4C910295BAF4200A0E80A /* Caddie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caddie.swift; sourceTree = "<group>"; };
+ABE4C911295BAF4200A0E80A /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+ABE4C912295BAF4200A0E80A /* PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFExporter.swift; sourceTree = "<group>"; };
+ABE4C913295BAF4200A0E80A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+ABE4C905295BAF4200A0E80A /* CaddieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = CaddieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+ABE4C930295BAF4200A0E80A /* Products */ = {isa = PBXGroup; children = (
+ABE4C905295BAF4200A0E80A /* CaddieManager.app */,
+); name = Products; sourceTree = "<group>"; };
+
+ABE4C901295BAF4200A0E80A = {isa = PBXGroup; children = (
+ABE4C90C295BAF4200A0E80A,
+ABE4C90E295BAF4200A0E80A,
+ABE4C913295BAF4200A0E80A,
+ABE4C90F295BAF4200A0E80A,
+ABE4C912295BAF4200A0E80A,
+ABE4C910295BAF4200A0E80A,
+ABE4C911295BAF4200A0E80A,
+ABE4C914295BAF4200A0E80A,
+ABE4C90D295BAF4200A0E80A,
+); path = CaddieManager; sourceTree = "<group>"; };
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+ABE4C902295BAF4200A0E80A /* CaddieManager */ = {
+isa = PBXNativeTarget;
+buildConfigurationList = ABE4C909295BAF4200A0E80A;
+buildPhases = (
+ABE4C903295BAF4200A0E80A /* Sources */,
+ABE4C904295BAF4200A0E80A /* Resources */,
+);
+buildRules = (
+);
+dependencies = (
+);
+name = CaddieManager;
+productName = CaddieManager;
+productReference = ABE4C905295BAF4200A0E80A /* CaddieManager.app */;
+productType = "com.apple.product-type.application";
+};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+ABE4C900295BAF4200A0E80A = {
+isa = PBXProject;
+buildConfigurationList = ABE4C906295BAF4200A0E80A;
+compatibilityVersion = "Xcode 14.0";
+developmentRegion = en;
+hasScannedForEncodings = 0;
+knownRegions = (
+en,
+);
+mainGroup = ABE4C901295BAF4200A0E80A;
+productRefGroup = ABE4C930295BAF4200A0E80A;
+projectDirPath = "";
+projectRoot = "";
+targets = (
+ABE4C902295BAF4200A0E80A /* CaddieManager */,
+);
+};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+ABE4C904295BAF4200A0E80A /* Resources */ = {
+isa = PBXResourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+ABE4C920295BAF4200A0E80A /* Assets.xcassets in Resources */,
+ABE4C921295BAF4200A0E80A /* Info.plist in Resources */,
+ABE4C928295BAF4200A0E80A /* LaunchScreen.storyboard in Resources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+ABE4C903295BAF4200A0E80A /* Sources */ = {
+isa = PBXSourcesBuildPhase;
+buildActionMask = 2147483647;
+files = (
+ABE4C922295BAF4200A0E80A /* CaddieManagerApp.swift in Sources */,
+ABE4C923295BAF4200A0E80A /* GroupDataStore.swift in Sources */,
+ABE4C924295BAF4200A0E80A /* Caddie.swift in Sources */,
+ABE4C925295BAF4200A0E80A /* Group.swift in Sources */,
+ABE4C926295BAF4200A0E80A /* PDFExporter.swift in Sources */,
+ABE4C927295BAF4200A0E80A /* ContentView.swift in Sources */,
+);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+ABE4C907295BAF4200A0E80A /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ENABLE_MODULES = YES;
+};
+name = Debug;
+};
+ABE4C908295BAF4200A0E80A /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+CLANG_ENABLE_MODULES = YES;
+};
+name = Release;
+};
+ABE4C90A295BAF4200A0E80A /* Debug */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = CaddieManager/Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.caddiemanager;
+PRODUCT_NAME = $(TARGET_NAME);
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+TARGETED_DEVICE_FAMILY = "1";
+};
+name = Debug;
+};
+ABE4C90B295BAF4200A0E80A /* Release */ = {
+isa = XCBuildConfiguration;
+buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = CaddieManager/Info.plist;
+PRODUCT_BUNDLE_IDENTIFIER = com.example.caddiemanager;
+PRODUCT_NAME = $(TARGET_NAME);
+SWIFT_VERSION = 5.0;
+IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+TARGETED_DEVICE_FAMILY = "1";
+};
+name = Release;
+};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+ABE4C906295BAF4200A0E80A = {
+isa = XCConfigurationList;
+buildConfigurations = (
+ABE4C907295BAF4200A0E80A /* Debug */,
+ABE4C908295BAF4200A0E80A /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+ABE4C909295BAF4200A0E80A = {
+isa = XCConfigurationList;
+buildConfigurations = (
+ABE4C90A295BAF4200A0E80A /* Debug */,
+ABE4C90B295BAF4200A0E80A /* Release */,
+);
+defaultConfigurationIsVisible = 0;
+defaultConfigurationName = Release;
+};
+/* End XCConfigurationList section */
+
+};
+rootObject = ABE4C900295BAF4200A0E80A /* Project object */;
+}
