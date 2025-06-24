@@ -1,5 +1,6 @@
 import SwiftUI
 import PDFKit
+import UIKit
 
 struct PDFExporter {
     static func export(view: AnyView) {
